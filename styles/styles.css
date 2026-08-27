@@ -98,12 +98,14 @@ h1, h2, h3, h4 {
 .gradient-text {
   background: var(--primary-gradient);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text-amber {
   background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -195,6 +197,8 @@ header.navbar.scrolled {
   display: flex;
   gap: 20px;
   list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-links a {
@@ -203,6 +207,11 @@ header.navbar.scrolled {
   font-size: 0.9rem;
   font-weight: 600;
   transition: var(--transition-smooth);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .nav-links a:hover {
@@ -514,7 +523,8 @@ section {
 /* Eye Anatomy & Refractive Problems Feature Cards */
 .physiology-section {
   background: #ffffff;
-  border-y: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
   box-shadow: var(--shadow-sm);
 }
 
@@ -556,7 +566,8 @@ section {
 /* Product Showcase Section */
 .product-showcase {
   background: #ffffff;
-  border-y: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .product-grid {
@@ -966,6 +977,22 @@ footer {
   margin-top: 12px;
   max-width: 400px;
   color: #64748b;
+}
+
+.footer-logo-ceab {
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.ceab-logo {
+  max-width: 120px;
+  height: auto;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.ceab-logo:hover {
+  opacity: 1;
 }
 
 .footer-col h5 {

@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Limites da Visão, Fisiologia Ocular &amp; Bengala Ultrassônica | Projeto Integrador 2° Ano</title>
-  <meta name="description" content="Site sobre os Limites da Visão, Fisiologia do Olho e Problemas de Visão (Física Óptica), junto com o Projeto Integrador da Bengala Ultrassônica do 2° Ano Médio.">
-  
+  <meta name="description"
+    content="Site sobre os Limites da Visão, Fisiologia do Olho e Problemas de Visão (Física Óptica), junto com o Projeto Integrador da Bengala Ultrassônica do 2° Ano Médio.">
+
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="styles.css">
-  
+  <link rel="stylesheet" href="styles/bengala.css">
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo-ceab-2.png">
+
+
+  <!-- Three.js ES Modules -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body>
 
   <!-- Top Scroll Progress Bar -->
@@ -48,7 +66,7 @@
     <section class="hero" id="hero">
       <div class="container">
         <div class="hero-grid">
-          
+
           <div class="hero-content reveal-left">
             <span class="badge badge-purple">
               <i data-lucide="sparkles" style="width: 14px; height: 14px;"></i>
@@ -60,7 +78,9 @@
             </h1>
 
             <p>
-              Estudo completo sobre as propriedades do olho humano, defeitos de refração (Miopia, Hipermetropia) e a criação da <strong>Bengala Inteligente com Sensor Ultrassônico</strong> para autonomia de pessoas com deficiência visual.
+              Estudo completo sobre as propriedades do olho humano, defeitos de refração (Miopia, Hipermetropia) e a
+              criação da <strong>Bengala Inteligente com Sensor Ultrassônico</strong> para autonomia de pessoas com
+              deficiência visual.
             </p>
 
             <div class="hero-actions">
@@ -85,6 +105,7 @@
             </div>
           </div>
 
+          <div id="bengala-3d-container"></div>
         </div>
       </div>
     </section>
@@ -93,7 +114,7 @@
     <!-- SECTION 1: PROPRIEDADES FISIOLÓGICAS DO OLHO HUMANO -->
     <section id="fisiologia" class="physiology-section">
       <div class="container">
-        
+
         <div class="section-header reveal">
           <span class="badge">
             <i data-lucide="activity" style="width: 14px; height: 14px;"></i>
@@ -101,12 +122,13 @@
           </span>
           <h2>Propriedades Fisiológicas do Olho e Suas Funções</h2>
           <p>
-            O olho humano atua como um sistema óptico biológico complexo, focado em refratar a luz e converter fótons em impulsos elétricos para o cérebro.
+            O olho humano atua como um sistema óptico biológico complexo, focado em refratar a luz e converter fótons em
+            impulsos elétricos para o cérebro.
           </p>
         </div>
 
         <div class="grid-3">
-          
+
           <!-- Elemento 1 -->
           <div class="card reveal">
             <div class="card-icon">
@@ -114,7 +136,8 @@
             </div>
             <h3>1. Córnea (Refrator Primário)</h3>
             <p>
-              Membrana transparente curva na parte frontal do olho. Responde por cerca de <strong>65% a 75% da convergência total da luz</strong> (Poder dióptrico aproximado de +43 dioptrias).
+              Membrana transparente curva na parte frontal do olho. Responde por cerca de <strong>65% a 75% da
+                convergência total da luz</strong> (Poder dióptrico aproximado de +43 dioptrias).
             </p>
             <span class="card-tag">Função: Focalização Inicial</span>
           </div>
@@ -126,9 +149,11 @@
             </div>
             <h3>2. Íris e Pupila (Controle Focal)</h3>
             <p>
-              A íris é a estrutura colorida que se contrai ou dilata, ajustando a abertura central (pupila). Funciona como o diafragma de uma câmera, regulando a intensidade luminosa incidente.
+              A íris é a estrutura colorida que se contrai ou dilata, ajustando a abertura central (pupila). Funciona
+              como o diafragma de uma câmera, regulando a intensidade luminosa incidente.
             </p>
-            <span class="card-tag" style="color: var(--accent-amber); background: rgba(217,119,6,0.08);">Função: Ajuste de Iluminação</span>
+            <span class="card-tag" style="color: var(--accent-amber); background: rgba(217,119,6,0.08);">Função: Ajuste
+              de Iluminação</span>
           </div>
 
           <!-- Elemento 3 -->
@@ -138,9 +163,11 @@
             </div>
             <h3>3. Cristalino (Acomodação Visual)</h3>
             <p>
-              Lente biconvexa flexível acionada pelos músculos ciliares. Altera sua curvatura para ajustar a distância focal para objetos próximos ou distantes (Acomodação Óptica).
+              Lente biconvexa flexível acionada pelos músculos ciliares. Altera sua curvatura para ajustar a distância
+              focal para objetos próximos ou distantes (Acomodação Óptica).
             </p>
-            <span class="card-tag" style="color: var(--secondary-purple); background: rgba(124,58,237,0.08);">Função: Ajuste Fino de Foco</span>
+            <span class="card-tag" style="color: var(--secondary-purple); background: rgba(124,58,237,0.08);">Função:
+              Ajuste Fino de Foco</span>
           </div>
 
           <!-- Elemento 4 -->
@@ -150,7 +177,8 @@
             </div>
             <h3>4. Retina (Cones e Bastonetes)</h3>
             <p>
-              Camada fotorreceptora no fundo do olho. Os <strong>Cones</strong> garantem a visão em cores e alta nitidez diurna, enquanto os <strong>Bastonetes</strong> proporcionam a visão periférica e noturna.
+              Camada fotorreceptora no fundo do olho. Os <strong>Cones</strong> garantem a visão em cores e alta nitidez
+              diurna, enquanto os <strong>Bastonetes</strong> proporcionam a visão periférica e noturna.
             </p>
             <span class="card-tag">Função: Captura &amp; Transdução</span>
           </div>
@@ -162,9 +190,11 @@
             </div>
             <h3>5. Humor Aquoso e Vítreo</h3>
             <p>
-              Fluidos transparentes que preenchem as câmaras do olho. Mantêm a pressão intraocular estável e garantem a rigidez geométrica necessária para o foco preciso.
+              Fluidos transparentes que preenchem as câmaras do olho. Mantêm a pressão intraocular estável e garantem a
+              rigidez geométrica necessária para o foco preciso.
             </p>
-            <span class="card-tag" style="color: var(--accent-amber); background: rgba(217,119,6,0.08);">Função: Meio Transparente &amp; Pressão</span>
+            <span class="card-tag" style="color: var(--accent-amber); background: rgba(217,119,6,0.08);">Função: Meio
+              Transparente &amp; Pressão</span>
           </div>
 
           <!-- Elemento 6 -->
@@ -174,9 +204,11 @@
             </div>
             <h3>6. Nervo Óptico</h3>
             <p>
-              Cabo de fibras nervosas que conduz os impulsos eletroquímicos gerados pela retina até o córtex visual occipital do cérebro, onde a imagem é reconstruída.
+              Cabo de fibras nervosas que conduz os impulsos eletroquímicos gerados pela retina até o córtex visual
+              occipital do cérebro, onde a imagem é reconstruída.
             </p>
-            <span class="card-tag" style="color: var(--secondary-purple); background: rgba(124,58,237,0.08);">Função: Transmissão Neural</span>
+            <span class="card-tag" style="color: var(--secondary-purple); background: rgba(124,58,237,0.08);">Função:
+              Transmissão Neural</span>
           </div>
 
         </div>
@@ -188,7 +220,7 @@
     <!-- SECTION 2: PRINCIPAIS PROBLEMAS DE VISÃO (AMETROPIAS) -->
     <section id="problemas" class="problems-section">
       <div class="container">
-        
+
         <div class="section-header reveal">
           <span class="badge badge-amber">
             <i data-lucide="alert-triangle" style="width: 14px; height: 14px;"></i>
@@ -196,12 +228,13 @@
           </span>
           <h2>Principais Problemas de Visão (Erros de Refração)</h2>
           <p>
-            Defeitos no formato do globo ocular ou no grau de curvatura das lentes alteram o ponto de convergência da luz em relação à retina.
+            Defeitos no formato do globo ocular ou no grau de curvatura das lentes alteram o ponto de convergência da
+            luz em relação à retina.
           </p>
         </div>
 
         <div class="grid-4">
-          
+
           <!-- Problema 1: Miopia -->
           <div class="card reveal">
             <div class="card-icon card-icon-red">
@@ -209,8 +242,10 @@
             </div>
             <h3>Miopia</h3>
             <p>
-              <strong>Causa:</strong> Globo ocular longo ou córnea muito curva. A imagem de objetos distantes se forma <em>antes da retina</em>.<br><br>
-              <strong>Correção:</strong> Lentes <strong>Divergentes</strong> (Côncavas), que afastam o ponto focal para que coincida com a retina.
+              <strong>Causa:</strong> Globo ocular longo ou córnea muito curva. A imagem de objetos distantes se forma
+              <em>antes da retina</em>.<br><br>
+              <strong>Correção:</strong> Lentes <strong>Divergentes</strong> (Côncavas), que afastam o ponto focal para
+              que coincida com a retina.
             </p>
           </div>
 
@@ -221,7 +256,8 @@
             </div>
             <h3>Hipermetropia</h3>
             <p>
-              <strong>Causa:</strong> Globo ocular curto ou córnea plana. A imagem de objetos próximos se forma <em>atrás da retina</em>.<br><br>
+              <strong>Causa:</strong> Globo ocular curto ou córnea plana. A imagem de objetos próximos se forma
+              <em>atrás da retina</em>.<br><br>
               <strong>Correção:</strong> Lentes <strong>Convergentes</strong> (Convexas), que aproximam o ponto focal.
             </p>
           </div>
@@ -233,7 +269,8 @@
             </div>
             <h3>Astigmatismo</h3>
             <p>
-              <strong>Causa:</strong> Curvatura irregular da córnea ou do cristalino em diferentes meridianos. A luz foca em múltiplos pontos, distorcendo a visão.<br><br>
+              <strong>Causa:</strong> Curvatura irregular da córnea ou do cristalino em diferentes meridianos. A luz
+              foca em múltiplos pontos, distorcendo a visão.<br><br>
               <strong>Correção:</strong> Lentes <strong>Cilíndricas</strong>.
             </p>
           </div>
@@ -245,8 +282,10 @@
             </div>
             <h3>Presbiopia &amp; Cegueira</h3>
             <p>
-              <strong>Presbiopia ("Vista Cansada"):</strong> Perda progressiva da elasticidade do cristalino. Correção com Lentes Multifocais.<br><br>
-              <strong>Cegueira / Baixa Visão:</strong> Perda severa da percepção luminosa. <em>Motiva a criação da Bengala Ultrassônica!</em>
+              <strong>Presbiopia ("Vista Cansada"):</strong> Perda progressiva da elasticidade do cristalino. Correção
+              com Lentes Multifocais.<br><br>
+              <strong>Cegueira / Baixa Visão:</strong> Perda severa da percepção luminosa. <em>Motiva a criação da
+                Bengala Ultrassônica!</em>
             </p>
           </div>
 
@@ -259,7 +298,7 @@
     <!-- SECTION 3: FÍSICA DOS LIMITES DA VISÃO E PONTO CEGO -->
     <section id="fisica">
       <div class="container">
-        
+
         <div class="section-header reveal">
           <span class="badge">
             <i data-lucide="atom" style="width: 14px; height: 14px;"></i>
@@ -267,19 +306,21 @@
           </span>
           <h2>Limites de Espectro, Resolução &amp; Ponto Cego</h2>
           <p>
-            Além dos erros de refração, o próprio sistema visual humano possui limites físicos invioláveis impostos pela natureza das ondas luminosas.
+            Além dos erros de refração, o próprio sistema visual humano possui limites físicos invioláveis impostos pela
+            natureza das ondas luminosas.
           </p>
         </div>
 
         <div class="grid-4">
-          
+
           <div class="card reveal">
             <div class="card-icon">
               <i data-lucide="sun"></i>
             </div>
             <h3>Espectro Visível (400-700 nm)</h3>
             <p>
-              Captamos apenas uma pequena fração do espectro eletromagnético. O ultrassom e o infravermelho necessitam de sensores externos para percepção.
+              Captamos apenas uma pequena fração do espectro eletromagnético. O ultrassom e o infravermelho necessitam
+              de sensores externos para percepção.
             </p>
           </div>
 
@@ -289,7 +330,8 @@
             </div>
             <h3>Limiar de Acuidade Visual</h3>
             <p>
-              A menor distância entre dois pontos que ainda podemos separar é limitada pela difração da luz na pupila e pelo tamanho dos fotorreceptores.
+              A menor distância entre dois pontos que ainda podemos separar é limitada pela difração da luz na pupila e
+              pelo tamanho dos fotorreceptores.
             </p>
           </div>
 
@@ -299,7 +341,8 @@
             </div>
             <h3>Ponto Cego Anatômico</h3>
             <p>
-              Na junção da retina com o nervo óptico não existem fotorreceptores. Qualquer feixe de luz focado exatamente nessa zona não é percebido.
+              Na junção da retina com o nervo óptico não existem fotorreceptores. Qualquer feixe de luz focado
+              exatamente nessa zona não é percebido.
             </p>
           </div>
 
@@ -309,7 +352,8 @@
             </div>
             <h3>Ecolocalização Ultrassônica</h3>
             <p>
-              Substituindo a reflexão da luz por pulsos sonoros de 40 kHz. Medindo o eco, calculamos com precisão a distância de objetos em tempo real.
+              Substituindo a reflexão da luz por pulsos sonoros de 40 kHz. Medindo o eco, calculamos com precisão a
+              distância de objetos em tempo real.
             </p>
           </div>
 
@@ -317,9 +361,12 @@
 
         <!-- EXPERIMENTO DO PONTO CEGO -->
         <div class="interactive-box reveal" id="experimento">
-          <h3><i data-lucide="search" style="color: var(--primary-cyan); vertical-align: middle;"></i> Experimento Interativo: Encontre seu Ponto Cego!</h3>
+          <h3><i data-lucide="search" style="color: var(--primary-cyan); vertical-align: middle;"></i> Experimento
+            Interativo: Encontre seu Ponto Cego!</h3>
           <p style="color: var(--text-muted); margin-top: 8px;">
-            Instruções: Feche o <strong>olho esquerdo</strong> e olhe fixamente para a letra <strong>"L"</strong> com o olho direito. Aproxime ou afaste a cabeça da tela (~30cm). O símbolo <strong>"+"</strong> irá sumir instantaneamente!
+            Instruções: Feche o <strong>olho esquerdo</strong> e olhe fixamente para a letra <strong>"L"</strong> com o
+            olho direito. Aproxime ou afaste a cabeça da tela (~30cm). O símbolo <strong>"+"</strong> irá sumir
+            instantaneamente!
           </p>
 
           <div class="blind-spot-demo" id="blindSpotBox">
@@ -329,7 +376,8 @@
           </div>
 
           <p style="font-size: 0.88rem; color: var(--primary-cyan); font-weight: 600;">
-            💡 <em>Isso ocorre no instante exato em que a projeção da luz do sinal "+" incide sobre a junção sem fotorreceptores do nervo óptico!</em>
+            💡 <em>Isso ocorre no instante exato em que a projeção da luz do sinal "+" incide sobre a junção sem
+              fotorreceptores do nervo óptico!</em>
           </p>
         </div>
 
@@ -340,7 +388,7 @@
     <!-- SECTION 4: PROJETO INTEGRADOR BENGALA ULTRASSÔNICA -->
     <section id="bengala" class="product-showcase">
       <div class="container">
-        
+
         <div class="section-header reveal">
           <span class="badge badge-amber">
             <i data-lucide="cpu" style="width: 14px; height: 14px;"></i>
@@ -348,16 +396,19 @@
           </span>
           <h2>Bengala Inteligente com Sensor Ultrassônico</h2>
           <p>
-            Uma solução prática que combina **Física, Programação e Robótica** desenvolvida pelos alunos do 2° Ano do Ensino Médio para contornar a deficiência visual.
+            Uma solução prática que combina **Física, Programação e Robótica** desenvolvida pelos alunos do 2° Ano do
+            Ensino Médio para contornar a deficiência visual.
           </p>
         </div>
 
         <div class="product-grid">
-          
+
           <div class="product-info reveal-left">
             <h3>Arquitetura do Dispositivo</h3>
             <p>
-              O circuito emite ondas ultrassônicas (40 kHz). Ao colidirem com um objeto, as ondas refletem de volta ao sensor HC-SR04. O Arduino calcula o tempo de voo do eco e ativa alertas sonoros com o buzzer piezoelétrico.
+              O circuito emite ondas ultrassônicas (40 kHz). Ao colidirem com um objeto, as ondas refletem de volta ao
+              sensor HC-SR04. O Arduino calcula o tempo de voo do eco e ativa alertas sonoros com o buzzer
+              piezoelétrico.
             </p>
 
             <ul class="component-list">
@@ -401,7 +452,8 @@
               <input type="file" accept="image/*">
               <i data-lucide="image" class="placeholder-icon"></i>
               <div class="placeholder-title">Foto do Protótipo da Bengala</div>
-              <div class="placeholder-desc">Clique para selecionar ou arraste uma imagem real do protótipo desenvolvido pelo 2° Ano</div>
+              <div class="placeholder-desc">Clique para selecionar ou arraste uma imagem real do protótipo desenvolvido
+                pelo 2° Ano</div>
               <div class="placeholder-dim">ESPAÇO RESERVADO • 800 x 500 px</div>
             </div>
           </div>
@@ -415,7 +467,7 @@
     <!-- SECTION 5: SIMULADOR INTERATIVO DE ALARME ULTRASSÔNICO -->
     <section id="simulador">
       <div class="container">
-        
+
         <div class="section-header reveal">
           <span class="badge">
             <i data-lucide="sliders" style="width: 14px; height: 14px;"></i>
@@ -423,12 +475,13 @@
           </span>
           <h2>Simulador do Alarme Sonoro em Tempo Real</h2>
           <p>
-            Mova o slider para aproximação do obstáculo e ative o som para ouvir como o buzzer da bengala alerta o usuário visualmente e audivelmente.
+            Mova o slider para aproximação do obstáculo e ative o som para ouvir como o buzzer da bengala alerta o
+            usuário visualmente e audivelmente.
           </p>
         </div>
 
         <div class="simulator-container reveal">
-          
+
           <div class="sim-radar">
             <div class="sim-cane">
               <i data-lucide="navigation" class="sim-cane-icon"></i>
@@ -443,7 +496,7 @@
           </div>
 
           <div class="sim-controls">
-            
+
             <div class="slider-group">
               <label for="distanceSlider">
                 <span>Distância do Obstáculo</span>
@@ -473,7 +526,7 @@
     <!-- SECTION 6: DIÁRIO DE BORDO & INSERÇÃO DINÂMICA VIA SCROLL -->
     <section id="feed" class="scroll-feed-section">
       <div class="container">
-        
+
         <div class="section-header reveal">
           <span class="badge badge-purple">
             <i data-lucide="scroll" style="width: 14px; height: 14px;"></i>
@@ -481,7 +534,8 @@
           </span>
           <h2>Diário de Bordo do Projeto Integrador</h2>
           <p>
-            Conforme você rola a página para baixo, novos cards contendo resumos de física, anatomia ocular e programação são inseridos automaticamente!
+            Conforme você rola a página para baixo, novos cards contendo resumos de física, anatomia ocular e
+            programação são inseridos automaticamente!
           </p>
         </div>
 
@@ -503,7 +557,7 @@
     <!-- SECTION 7: ESPAÇOS RESERVADOS PARA IMAGENS DO PROJETO -->
     <section id="galeria">
       <div class="container">
-        
+
         <div class="section-header reveal">
           <span class="badge">
             <i data-lucide="camera" style="width: 14px; height: 14px;"></i>
@@ -511,12 +565,13 @@
           </span>
           <h2>Espaços Reservados para Imagens da Turma</h2>
           <p>
-            Locais estruturados para upload e exibição de fotos dos esquemas de circuitos, modelos 3D e imagens didáticas do olho humano.
+            Locais estruturados para upload e exibição de fotos dos esquemas de circuitos, modelos 3D e imagens
+            didáticas do olho humano.
           </p>
         </div>
 
         <div class="gallery-grid">
-          
+
           <!-- Placeholder 1 -->
           <div class="image-placeholder reveal" id="phSchematic">
             <input type="file" accept="image/*">
@@ -554,7 +609,7 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      
+
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="#" class="logo">
@@ -563,8 +618,12 @@
             </div>
             <span>Visão<span class="gradient-text">&amp;Eco</span></span>
           </a>
+          <div class="footer-logo-ceab">
+            <img src="images/logo-ceab-2.png" alt="Logo Colégio CEAB" class="ceab-logo">
+          </div>
           <p>
-            Projeto Integrador das disciplinas de <strong>Física &amp; Programação (IFA)</strong>. Desenvolvido com orgulho pela turma do <strong>2° Ano do Ensino Médio — Colégio CEAB</strong>.
+            Projeto Integrador das disciplinas de <strong>Física &amp; Programação (IFA)</strong>. Desenvolvido com
+            orgulho pela turma do <strong>2° Ano do Ensino Médio — Colégio CEAB</strong>.
           </p>
         </div>
 
@@ -590,7 +649,8 @@
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 Colégio CEAB — IFA Programação &amp; Física • 2° Ano do Ensino Médio. Todos os direitos reservados.</p>
+        <p>&copy; 2026 Colégio CEAB — IFA Programação &amp; Física • 2° Ano do Ensino Médio. Todos os direitos
+          reservados.</p>
       </div>
 
     </div>
@@ -602,7 +662,9 @@
   </script>
 
   <!-- Application Script -->
-  <script src="script.js"></script>
+  <script src="scripts/script.js"></script>
+  <script type="module" src="scripts/bengala.js"></script>
 
 </body>
+
 </html>
