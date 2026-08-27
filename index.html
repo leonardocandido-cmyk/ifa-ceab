@@ -46,16 +46,39 @@
       <span>Visão <span class="gradient-text">&amp; Eco</span></span>
     </a>
 
-    <ul class="nav-links">
-      <li><a href="#fisiologia">Fisiologia do Olho</a></li>
-      <li><a href="#problemas">Problemas de Visão</a></li>
-      <li><a href="#fisica">Física &amp; Limites</a></li>
-      <li><a href="#bengala">Bengala Inteligente</a></li>
-      <li><a href="#simulador">Simulador Sonoro</a></li>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#fisiologia" class="nav-link-item">Fisiologia do Olho</a></li>
+      <li><a href="#problemas" class="nav-link-item">Problemas de Visão</a></li>
+      <li><a href="#fisica" class="nav-link-item">Física &amp; Limites</a></li>
+      <li><a href="#bengala" class="nav-link-item">Bengala Inteligente</a></li>
+      <li><a href="#simulador" class="nav-link-item">Simulador Sonoro</a></li>
     </ul>
 
     <a href="#simulador" class="nav-btn">Testar Alarme</a>
+
+    <!-- Hamburguer Button (mobile only) -->
+    <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu" aria-expanded="false">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+    <nav class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-links">
+        <li><a href="#fisiologia" class="mobile-nav-link">Fisiologia do Olho</a></li>
+        <li><a href="#problemas" class="mobile-nav-link">Problemas de Visão</a></li>
+        <li><a href="#fisica" class="mobile-nav-link">Física &amp; Limites</a></li>
+        <li><a href="#bengala" class="mobile-nav-link">Bengala Inteligente</a></li>
+        <li><a href="#simulador" class="mobile-nav-link">Simulador Sonoro</a></li>
+      </ul>
+      <a href="#simulador" class="btn-primary mobile-menu-cta">
+        <i data-lucide="volume-2"></i> Testar Alarme
+      </a>
+    </nav>
+  </div>
 
   <!-- Main Content -->
   <main>
@@ -207,7 +230,7 @@
 
         <!-- Diagrama de Anatomia Ocular -->
         <div class="physiology-diagram reveal">
-          <img src="images/pdf_extracted/2_6558___2a_SERIE_AULA_22_2026_page_5_img_6.jpeg" 
+          <img src="images/ChatGPT Image 26 de ago. de 2026, 22_50_32.png" 
                alt="Diagrama de Anatomia Ocular" class="diagram-img">
           <p class="diagram-caption">Diagrama detalhado das estruturas do olho humano e suas funções ópticas</p>
         </div>

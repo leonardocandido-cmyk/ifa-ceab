@@ -24,7 +24,49 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 2. INTERSECTION OBSERVER FOR SCROLL REVEAL ANIMATIONS
+  // 2. HAMBURGER MENU
+  const hamburgerBtn = document.getElementById('hamburgerBtn');
+  const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+  const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+  function openMenu() {
+    if (!hamburgerBtn || !mobileMenuOverlay) return;
+    hamburgerBtn.classList.add('is-open');
+    mobileMenuOverlay.classList.add('is-open');
+    hamburgerBtn.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+    if (window.lucide) window.lucide.createIcons();
+  }
+
+  function closeMenu() {
+    if (!hamburgerBtn || !mobileMenuOverlay) return;
+    hamburgerBtn.classList.remove('is-open');
+    mobileMenuOverlay.classList.remove('is-open');
+    hamburgerBtn.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  if (hamburgerBtn) {
+    hamburgerBtn.addEventListener('click', () => {
+      hamburgerBtn.classList.contains('is-open') ? closeMenu() : openMenu();
+    });
+  }
+
+  if (mobileMenuOverlay) {
+    mobileMenuOverlay.addEventListener('click', (e) => {
+      if (e.target === mobileMenuOverlay) closeMenu();
+    });
+  }
+
+  mobileNavLinks.forEach(link => {
+    link.addEventListener('click', closeMenu);
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeMenu();
+  });
+
+  // 3. INTERSECTION OBSERVER FOR SCROLL REVEAL ANIMATIONS
   const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
   
   const revealObserver = new IntersectionObserver((entries, observer) => {
@@ -39,97 +81,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   revealElements.forEach(el => revealObserver.observe(el));
-
-  // 3. DYNAMIC SCROLL FEED (ITEM INSERTION AS YOU SCROLL)
-  const feedContainer = document.getElementById('dynamicFeedContainer');
-  const feedTrigger = document.getElementById('feedTrigger');
-
-  // Database of project updates / physics facts to dynamically insert on scroll
-  const dynamicUpdates = [
-    {
-      date: "Semana 1",
-      title: "Mapeamento da Fisiologia Ocular e Óptica",
-      content: "Estudo comparativo entre a câmera fotográfica e a anatomia do olho: Córnea e Cristalino como lentes convergentes biológicas, Pupila como diafragma/abertura e Retina como sensor de captura de imagem.",
-      tags: ["Anatomia do Olho", "Óptica Biológica", "Fisiologia"]
-    },
-    {
-      date: "Semana 2",
-      title: "Análise Óptica dos Erros de Refração (Ametropias)",
-      content: "Investigação sobre a Miopia (foco antes da retina), Hipermetropia (foco atrás da retina) e o uso de lentes divergentes e convergentes para correção da distância focal.",
-      tags: ["Miopia", "Hipermetropia", "Lentes Corretivas"]
-    },
-    {
-      date: "Semana 3",
-      title: "Física do Sensor Ultrassônico HC-SR04",
-      content: "Cálculo da velocidade do som no ar (v ≈ 343 m/s à 20°C). O sensor emite pulsos de 40kHz (inaudíveis aos humanos) e mede o intervalo até o retorno do eco: Distância = (Tempo * v) / 2.",
-      tags: ["Física Ondulatória", "Ultrassom", "Acústica"]
-    },
-    {
-      date: "Semana 4",
-      title: "Montagem da Eletrônica & Arduino Nano",
-      content: "Integração do microcontrolador com os pinos Trigger/Echo e o módulo piezoelétrico Buzzer. Desenvolvimento do código em C++ com modulação da frequência sonora baseada na proximidade.",
-      tags: ["Robótica", "Arduino", "Programação C++"]
-    },
-    {
-      date: "Semana 5",
-      title: "Calibração da Resolução e Modulação de Alerta",
-      content: "Definição de zonas de perigo: Objetos a menos de 30cm disparam alerta sonoro contínuo e rápido, enquanto distâncias de 30cm a 200cm produzem bips espaçados.",
-      tags: ["Calibração", "Tecnologia Assistiva", "IFA"]
-    },
-    {
-      date: "Semana 6",
-      title: "Testes Práticos e Validação no CEAB",
-      content: "Ensaio com estudantes vendados simulando deficiência visual severa. A bengala ultrassônica garantiu um tempo de reação de menos de 0.2s, evitando colisões com obstáculos!",
-      tags: ["Projeto Integrador", "CEAB 2° Ano", "Acessibilidade"]
-    }
-  ];
-
-  let currentFeedIndex = 0;
-  let isLoadingFeed = false;
-
-  function loadNextFeedItems(count = 2) {
-    if (isLoadingFeed || currentFeedIndex >= dynamicUpdates.length) return;
-    isLoadingFeed = true;
-
-    for (let i = 0; i < count && currentFeedIndex < dynamicUpdates.length; i++) {
-      const item = dynamicUpdates[currentFeedIndex];
-      const feedCard = document.createElement('div');
-      feedCard.className = 'feed-item';
-      feedCard.innerHTML = `
-        <div class="feed-date">${item.date}</div>
-        <div class="feed-body">
-          <h4>${item.title}</h4>
-          <p>${item.content}</p>
-          <div class="feed-tags">
-            ${item.tags.map(t => `<span class="feed-tag">#${t}</span>`).join('')}
-          </div>
-        </div>
-      `;
-      feedContainer.appendChild(feedCard);
-      currentFeedIndex++;
-    }
-
-    isLoadingFeed = false;
-
-    if (currentFeedIndex >= dynamicUpdates.length && feedTrigger) {
-      feedTrigger.innerHTML = `<span style="color: var(--text-dim); font-weight: 600;">✨ Todos os registros de física e engenharia do 2° Ano foram carregados!</span>`;
-    }
-  }
-
-  // Initial load of first 2 items
-  loadNextFeedItems(2);
-
-  // Observer to load more items when scrolling down to feedTrigger
-  if (feedTrigger) {
-    const feedObserver = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) {
-        setTimeout(() => {
-          loadNextFeedItems(2);
-        }, 400);
-      }
-    }, { threshold: 0.4 });
-    feedObserver.observe(feedTrigger);
-  }
 
   // 4. ULTRASONIC SENSOR WEB AUDIO API SIMULATOR
   const distanceSlider = document.getElementById('distanceSlider');
@@ -223,11 +174,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (isAlarmActive) {
         toggleAlarmBtn.classList.add('sound-active');
-        toggleAlarmBtn.innerHTML = `<span>🔊 Desativar Alarme Sonoro</span>`;
+        toggleAlarmBtn.querySelector('span').textContent = '🔊 Desativar Alarme Sonoro';
         updateBuzzerLoop();
       } else {
         toggleAlarmBtn.classList.remove('sound-active');
-        toggleAlarmBtn.innerHTML = `<span>🔈 Ativar Alarme Sonoro (Simulador)</span>`;
+        toggleAlarmBtn.querySelector('span').textContent = '🔈 Ativar Alarme Sonoro (Simulador)';
         if (beepInterval) clearInterval(beepInterval);
       }
     });
@@ -291,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 6. BLIND SPOT EXPERIMENT INTERACTION
+  // 4. BLIND SPOT EXPERIMENT INTERACTION
   const blindSpotContainer = document.getElementById('blindSpotBox');
   if (blindSpotContainer) {
     blindSpotContainer.addEventListener('click', () => {
