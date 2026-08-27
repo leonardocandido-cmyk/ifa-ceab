@@ -1,0 +1,761 @@
+RELATÓRIO DE SELEÇÃO DE IMAGENS
+============================================================
+
+Total de imagens selecionadas: 108
+
+1. page_10_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_10_img_1.jpeg
+
+2. page_10_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 640x640px
+   Tamanho: 73.5KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_10_img_6.jpeg
+
+3. page_10_img_7.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 390x390px
+   Tamanho: 21.0KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_10_img_7.jpeg
+
+4. page_11_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_11_img_1.jpeg
+
+5. page_11_img_10.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1920x1080px
+   Tamanho: 75.3KB
+   Aspect Ratio: 1.78
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_11_img_10.jpeg
+
+6. page_11_img_9.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1024x1024px
+   Tamanho: 74.1KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_11_img_9.jpeg
+
+7. page_12_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_12_img_1.jpeg
+
+8. page_12_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2048x1365px
+   Tamanho: 128.1KB
+   Aspect Ratio: 1.50
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_12_img_6.jpeg
+
+9. page_12_img_8.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 450x450px
+   Tamanho: 62.9KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_12_img_8.jpeg
+
+10. page_13_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_13_img_1.jpeg
+
+11. page_13_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1162x298px
+   Tamanho: 66.1KB
+   Aspect Ratio: 3.90
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_13_img_5.jpeg
+
+12. page_13_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1200x675px
+   Tamanho: 74.3KB
+   Aspect Ratio: 1.78
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_13_img_6.jpeg
+
+13. page_1_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_1_img_1.jpeg
+
+14. page_1_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1000x584px
+   Tamanho: 9.7KB
+   Aspect Ratio: 1.71
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_1_img_5.jpeg
+
+15. page_1_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2048x374px
+   Tamanho: 82.4KB
+   Aspect Ratio: 5.48
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_1_img_6.jpeg
+
+16. page_2_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_2_img_1.jpeg
+
+17. page_2_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1000x584px
+   Tamanho: 9.7KB
+   Aspect Ratio: 1.71
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_2_img_5.jpeg
+
+18. page_2_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 684.7KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_2_img_6.jpeg
+
+19. page_2_img_8.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2048x374px
+   Tamanho: 82.4KB
+   Aspect Ratio: 5.48
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_2_img_8.jpeg
+
+20. page_3_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_3_img_1.jpeg
+
+21. page_3_img_12.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1000x1000px
+   Tamanho: 49.8KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_3_img_12.jpeg
+
+22. page_3_img_16.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 863x513px
+   Tamanho: 7.6KB
+   Aspect Ratio: 1.68
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_3_img_16.jpeg
+
+23. page_3_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1000x584px
+   Tamanho: 9.7KB
+   Aspect Ratio: 1.71
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_3_img_5.jpeg
+
+24. page_3_img_7.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 900x592px
+   Tamanho: 41.9KB
+   Aspect Ratio: 1.52
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_3_img_7.jpeg
+
+25. page_3_img_8.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 964x561px
+   Tamanho: 9.2KB
+   Aspect Ratio: 1.72
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_3_img_8.jpeg
+
+26. page_4_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_4_img_1.jpeg
+
+27. page_4_img_13.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 390x390px
+   Tamanho: 20.6KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_4_img_13.jpeg
+
+28. page_4_img_7.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 900x592px
+   Tamanho: 41.9KB
+   Aspect Ratio: 1.52
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_4_img_7.jpeg
+
+29. page_5_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_5_img_1.jpeg
+
+30. page_5_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1184x896px
+   Tamanho: 118.0KB
+   Aspect Ratio: 1.32
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_5_img_6.jpeg
+
+31. page_6_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_6_img_1.jpeg
+
+32. page_6_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1090x546px
+   Tamanho: 77.9KB
+   Aspect Ratio: 2.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_6_img_6.jpeg
+
+33. page_7_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_7_img_1.jpeg
+
+34. page_7_img_10.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1192x509px
+   Tamanho: 92.8KB
+   Aspect Ratio: 2.34
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_7_img_10.jpeg
+
+35. page_8_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_8_img_1.jpeg
+
+36. page_8_img_16.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2000x1498px
+   Tamanho: 71.0KB
+   Aspect Ratio: 1.34
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_8_img_16.jpeg
+
+37. page_8_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1248x832px
+   Tamanho: 69.8KB
+   Aspect Ratio: 1.50
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_8_img_5.jpeg
+
+38. page_8_img_7.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 700x700px
+   Tamanho: 38.6KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_8_img_7.jpeg
+
+39. page_8_img_8.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 700x700px
+   Tamanho: 38.4KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_8_img_8.jpeg
+
+40. page_9_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_9_img_1.jpeg
+
+41. page_9_img_14.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 700x700px
+   Tamanho: 38.6KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_9_img_14.jpeg
+
+42. page_9_img_8.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_22_2026
+   Dimensões: 1376x768px
+   Tamanho: 103.0KB
+   Aspect Ratio: 1.79
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_22_2026\page_9_img_8.jpeg
+
+43. page_10_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_10_img_1.jpeg
+
+44. page_10_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 390x390px
+   Tamanho: 21.0KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_10_img_6.jpeg
+
+45. page_10_img_9.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 1280x1280px
+   Tamanho: 50.9KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_10_img_9.jpeg
+
+46. page_11_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_11_img_1.jpeg
+
+47. page_11_img_13.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 390x390px
+   Tamanho: 32.7KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_11_img_13.jpeg
+
+48. page_11_img_8.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 1920x1080px
+   Tamanho: 75.3KB
+   Aspect Ratio: 1.78
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_11_img_8.jpeg
+
+49. page_12_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_12_img_1.jpeg
+
+50. page_12_img_9.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 390x390px
+   Tamanho: 21.6KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_12_img_9.jpeg
+
+51. page_13_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_13_img_1.jpeg
+
+52. page_13_img_4.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 1162x298px
+   Tamanho: 66.1KB
+   Aspect Ratio: 3.90
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_13_img_4.jpeg
+
+53. page_13_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 1200x675px
+   Tamanho: 74.3KB
+   Aspect Ratio: 1.78
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_13_img_5.jpeg
+
+54. page_1_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_1_img_1.jpeg
+
+55. page_1_img_4.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 1000x584px
+   Tamanho: 9.7KB
+   Aspect Ratio: 1.71
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_1_img_4.jpeg
+
+56. page_1_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2048x374px
+   Tamanho: 82.4KB
+   Aspect Ratio: 5.48
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_1_img_5.jpeg
+
+57. page_2_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_2_img_1.jpeg
+
+58. page_2_img_4.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 1000x584px
+   Tamanho: 9.7KB
+   Aspect Ratio: 1.71
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_2_img_4.jpeg
+
+59. page_2_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 684.7KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_2_img_5.jpeg
+
+60. page_2_img_7.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2048x374px
+   Tamanho: 82.4KB
+   Aspect Ratio: 5.48
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_2_img_7.jpeg
+
+61. page_3_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_3_img_1.jpeg
+
+62. page_3_img_11.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 1000x1000px
+   Tamanho: 49.8KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_3_img_11.jpeg
+
+63. page_3_img_15.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 863x513px
+   Tamanho: 7.6KB
+   Aspect Ratio: 1.68
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_3_img_15.jpeg
+
+64. page_3_img_4.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 1000x584px
+   Tamanho: 9.7KB
+   Aspect Ratio: 1.71
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_3_img_4.jpeg
+
+65. page_3_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 900x592px
+   Tamanho: 41.9KB
+   Aspect Ratio: 1.52
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_3_img_6.jpeg
+
+66. page_3_img_7.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 964x561px
+   Tamanho: 9.2KB
+   Aspect Ratio: 1.72
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_3_img_7.jpeg
+
+67. page_4_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_4_img_1.jpeg
+
+68. page_4_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2048x1365px
+   Tamanho: 237.0KB
+   Aspect Ratio: 1.50
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_4_img_5.jpeg
+
+69. page_4_img_7.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2048x1365px
+   Tamanho: 335.7KB
+   Aspect Ratio: 1.50
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_4_img_7.jpeg
+
+70. page_4_img_8.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 390x390px
+   Tamanho: 26.0KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_4_img_8.jpeg
+
+71. page_4_img_9.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 1000x519px
+   Tamanho: 8.7KB
+   Aspect Ratio: 1.93
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_4_img_9.jpeg
+
+72. page_5_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_5_img_1.jpeg
+
+73. page_6_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_6_img_1.jpeg
+
+74. page_7_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_7_img_1.jpeg
+
+75. page_7_img_7.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2048x1365px
+   Tamanho: 314.9KB
+   Aspect Ratio: 1.50
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_7_img_7.jpeg
+
+76. page_7_img_8.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 1024x1024px
+   Tamanho: 128.1KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_7_img_8.jpeg
+
+77. page_8_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_8_img_1.jpeg
+
+78. page_9_img_1.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_23_2026
+   Dimensões: 2500x1410px
+   Tamanho: 146.4KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_23_2026\page_9_img_1.jpeg
+
+79. page_10_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1024x1024px
+   Tamanho: 36.3KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_10_img_5.jpeg
+
+80. page_10_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1024x1024px
+   Tamanho: 40.7KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_10_img_6.jpeg
+
+81. page_11_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 640x640px
+   Tamanho: 73.5KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_11_img_5.jpeg
+
+82. page_11_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 390x390px
+   Tamanho: 21.0KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_11_img_6.jpeg
+
+83. page_12_img_10.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1280x768px
+   Tamanho: 98.3KB
+   Aspect Ratio: 1.67
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_12_img_10.jpeg
+
+84. page_12_img_14.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1920x1080px
+   Tamanho: 73.6KB
+   Aspect Ratio: 1.78
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_12_img_14.jpeg
+
+85. page_12_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 500x500px
+   Tamanho: 22.7KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_12_img_6.jpeg
+
+86. page_12_img_9.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1280x768px
+   Tamanho: 93.2KB
+   Aspect Ratio: 1.67
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_12_img_9.jpeg
+
+87. page_13_img_7.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 390x390px
+   Tamanho: 21.6KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_13_img_7.jpeg
+
+88. page_14_img_4.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1162x298px
+   Tamanho: 66.1KB
+   Aspect Ratio: 3.90
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_14_img_4.jpeg
+
+89. page_14_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1200x675px
+   Tamanho: 74.3KB
+   Aspect Ratio: 1.78
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_14_img_5.jpeg
+
+90. page_1_img_4.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1000x584px
+   Tamanho: 9.7KB
+   Aspect Ratio: 1.71
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_1_img_4.jpeg
+
+91. page_1_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 2048x374px
+   Tamanho: 82.4KB
+   Aspect Ratio: 5.48
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_1_img_5.jpeg
+
+92. page_2_img_4.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1000x584px
+   Tamanho: 9.7KB
+   Aspect Ratio: 1.71
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_2_img_4.jpeg
+
+93. page_2_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 2500x1410px
+   Tamanho: 684.7KB
+   Aspect Ratio: 1.77
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_2_img_5.jpeg
+
+94. page_2_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 2048x374px
+   Tamanho: 82.4KB
+   Aspect Ratio: 5.48
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_2_img_6.jpeg
+
+95. page_3_img_11.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1000x1000px
+   Tamanho: 49.8KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_3_img_11.jpeg
+
+96. page_3_img_15.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 863x513px
+   Tamanho: 7.6KB
+   Aspect Ratio: 1.68
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_3_img_15.jpeg
+
+97. page_3_img_4.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1000x584px
+   Tamanho: 9.7KB
+   Aspect Ratio: 1.71
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_3_img_4.jpeg
+
+98. page_3_img_6.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 900x592px
+   Tamanho: 41.9KB
+   Aspect Ratio: 1.52
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_3_img_6.jpeg
+
+99. page_3_img_7.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 964x561px
+   Tamanho: 9.2KB
+   Aspect Ratio: 1.72
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_3_img_7.jpeg
+
+100. page_4_img_11.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1280x768px
+   Tamanho: 93.2KB
+   Aspect Ratio: 1.67
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_4_img_11.jpeg
+
+101. page_4_img_12.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1280x768px
+   Tamanho: 98.3KB
+   Aspect Ratio: 1.67
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_4_img_12.jpeg
+
+102. page_4_img_8.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 390x390px
+   Tamanho: 26.0KB
+   Aspect Ratio: 1.00
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_4_img_8.jpeg
+
+103. page_5_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1000x549px
+   Tamanho: 9.2KB
+   Aspect Ratio: 1.82
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_5_img_5.jpeg
+
+104. page_6_img_10.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 592x617px
+   Tamanho: 57.6KB
+   Aspect Ratio: 0.96
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_6_img_10.jpeg
+
+105. page_6_img_12.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 617x605px
+   Tamanho: 39.7KB
+   Aspect Ratio: 1.02
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_6_img_12.jpeg
+
+106. page_7_img_8.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 960x720px
+   Tamanho: 51.9KB
+   Aspect Ratio: 1.33
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_7_img_8.jpeg
+
+107. page_9_img_4.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 599x626px
+   Tamanho: 44.4KB
+   Aspect Ratio: 0.96
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_9_img_4.jpeg
+
+108. page_9_img_5.jpeg
+   Origem: 2_6558___2a_SERIE_AULA_24_2026
+   Dimensões: 1000x547px
+   Tamanho: 9.2KB
+   Aspect Ratio: 1.83
+   Caminho: C:\Users\leona\OneDrive\Documentos\CEAB\2026\Turmas\2° Ano Médio\IFA - Programação\Projetos\2° Tri\courses\candidate_images\2_6558___2a_SERIE_AULA_24_2026\page_9_img_5.jpeg
+

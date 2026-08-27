@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Imagens Extraídas dos PDFs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #4ade80;
+        }
+        
+        .subtitle {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #888;
+        }
+        
+        .stats {
+            background: #16213e;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .image-card {
+            background: #16213e;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        
+        .image-card:hover {
+            transform: scale(1.02);
+        }
+        
+        .image-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            background: #0f3460;
+        }
+        
+        .image-info {
+            padding: 10px;
+        }
+        
+        .image-name {
+            font-size: 0.85rem;
+            color: #4ade80;
+            margin-bottom: 5px;
+            word-break: break-all;
+        }
+        
+        .image-details {
+            font-size: 0.75rem;
+            color: #888;
+        }
+        
+        .checkbox-container {
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .checkbox-container input {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .actions {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .btn-primary {
+            background: #4ade80;
+            color: #1a1a2e;
+        }
+        
+        .btn-secondary {
+            background: #e94560;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 Visualizador de Imagens Extraídas</h1>
+    <p class="subtitle">Selecione as imagens relevantes para o site sobre Bengala Inteligente</p>
+    
+    <div class="stats">
+        <strong>Total de imagens:</strong> <span id="totalImages">0</span> | 
+        <strong>Selecionadas:</strong> <span id="selectedCount">0</span>
+    </div>
+    
+    <div class="grid" id="imageGrid"></div>
+    
+    <div class="actions">
+        <button class="btn btn-primary" onclick="exportSelected()">Exportar Selecionadas</button>
+        <button class="btn btn-secondary" onclick="selectAll()">Selecionar Todas</button>
+        <button class="btn btn-secondary" onclick="deselectAll()">Desmarcar Todas</button>
+    </div>
+    
+    <script>
+        const images = [];
+        const imageGrid = document.getElementById('imageGrid');
+        const totalImagesSpan = document.getElementById('totalImages');
+        const selectedCountSpan = document.getElementById('selectedCount');
+        
+        // Lista de imagens (será preenchida dinamicamente)
+        // Este é um template - você precisará preencher com as imagens reais
+        
+        async function loadImages() {
+            // Simulação - na prática, você precisará listar os arquivos da pasta
+            // Para este exemplo, vou criar uma estrutura que você pode adaptar
+            
+            const response = await fetch('image_list.json');
+            const imageList = await response.json();
+            
+            imageList.forEach(img => {
+                images.push({
+                    name: img.name,
+                    path: img.path,
+                    width: img.width,
+                    height: img.height,
+                    size: img.size,
+                    selected: false
+                });
+            });
+            
+            renderImages();
+            updateStats();
+        }
+        
+        function renderImages() {
+            imageGrid.innerHTML = '';
+            
+            images.forEach((img, index) => {
+                const card = document.createElement('div');
+                card.className = 'image-card';
+                
+                card.innerHTML = `
+                    <img src="${img.path}" alt="${img.name}" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%230f3460%22 width=%22100%22 height=%22100%22/><text fill=%22%234ade80%22 font-size=%2212%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22>Erro</text></svg>'">
+                    <div class="image-info">
+                        <div class="image-name">${img.name}</div>
+                        <div class="image-details">
+                            ${img.width}x${img.height}px | ${(img.size / 1024).toFixed(1)}KB
+                        </div>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" 
+                               id="check_${index}" 
+                               ${img.selected ? 'checked' : ''}
+                               onchange="toggleSelection(${index})">
+                    </div>
+                `;
+                
+                imageGrid.appendChild(card);
+            });
+        }
+        
+        function toggleSelection(index) {
+            images[index].selected = !images[index].selected;
+            updateStats();
+        }
+        
+        function selectAll() {
+            images.forEach(img => img.selected = true);
+            renderImages();
+            updateStats();
+        }
+        
+        function deselectAll() {
+            images.forEach(img => img.selected = false);
+            renderImages();
+            updateStats();
+        }
+        
+        function updateStats() {
+            totalImagesSpan.textContent = images.length;
+            selectedCountSpan.textContent = images.filter(img => img.selected).length;
+        }
+        
+        function exportSelected() {
+            const selected = images.filter(img => img.selected);
+            const data = JSON.stringify(selected, null, 2);
+            
+            const blob = new Blob([data], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'imagens_selecionadas.json';
+            a.click();
+            
+            URL.revokeObjectURL(url);
+        }
+        
+        // Inicialização
+        // loadImages(); // Descomente quando tiver o arquivo image_list.json
+        
+        // Por enquanto, mostra mensagem
+        imageGrid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; padding: 50px;">Para usar este visualizador, crie um arquivo image_list.json com a lista de imagens na pasta pdf_extracted.</p>';
+    </script>
+</body>
+</html>

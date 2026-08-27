@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualização Rápida - Imagens dos PDFs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #4ade80;
+        }
+        
+        .info {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #888;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .image-card {
+            background: #16213e;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #0f3460;
+        }
+        
+        .image-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+            background: #0f3460;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .image-card img:hover {
+            transform: scale(1.05);
+        }
+        
+        .image-info {
+            padding: 15px;
+        }
+        
+        .image-name {
+            font-size: 0.8rem;
+            color: #4ade80;
+            margin-bottom: 8px;
+            word-break: break-all;
+            font-weight: 600;
+        }
+        
+        .image-details {
+            font-size: 0.75rem;
+            color: #aaa;
+            line-height: 1.6;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .modal.active {
+            display: flex;
+        }
+        
+        .modal img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+        
+        .navigation {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .nav-btn {
+            background: #4ade80;
+            color: #1a1a2e;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        
+        .nav-btn:hover {
+            background: #22c55e;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 Visualização Rápida - Imagens Extraídas</h1>
+    <p class="info">
+        Mostrando as primeiras 20 imagens de alta qualidade. Clique em qualquer imagem para ver em tamanho real.
+        <br><br>
+        <strong>Total de imagens disponíveis:</strong> 108 em <code>images/pdf_extracted/</code>
+    </p>
+    
+    <div class="navigation">
+        <button class="nav-btn" onclick="loadImages(0, 20)">Primeiras 20</button>
+        <button class="nav-btn" onclick="loadImages(20, 40)">Próximas 20</button>
+        <button class="nav-btn" onclick="loadImages(40, 60)">Mais 20</button>
+    </div>
+    
+    <div class="grid" id="imageGrid"></div>
+    
+    <div class="modal" id="imageModal">
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+        <img id="modalImage" src="" alt="Imagem em tamanho real">
+    </div>
+    
+    <script>
+        const imagesFolder = '../images/pdf_extracted/';
+        const imageCatalog = [];
+        
+        // Carregar catálogo
+        async function loadCatalog() {
+            try {
+                const response = await fetch(imagesFolder + 'image_catalog.json');
+                const catalog = await response.json();
+                imageCatalog.push(...catalog);
+                loadImages(0, 20);
+            } catch (error) {
+                console.error('Erro ao carregar catálogo:', error);
+                document.getElementById('imageGrid').innerHTML = 
+                    '<p style="grid-column: 1/-1; text-align: center; padding: 50px;">Erro ao carregar catálogo de imagens. Verifique se o arquivo image_catalog.json existe.</p>';
+            }
+        }
+        
+        function loadImages(start, end) {
+            const grid = document.getElementById('imageGrid');
+            grid.innerHTML = '';
+            
+            const subset = imageCatalog.slice(start, end);
+            
+            if (subset.length === 0) {
+                grid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; padding: 50px;">Não há mais imagens para exibir.</p>';
+                return;
+            }
+            
+            subset.forEach(img => {
+                const card = document.createElement('div');
+                card.className = 'image-card';
+                
+                card.innerHTML = `
+                    <img src="${imagesFolder + img.name}" 
+                         alt="${img.name}" 
+                         onclick="openModal('${imagesFolder + img.name}')"
+                         onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\\'padding:50px;text-align:center;color:#888\\'>Erro ao carregar imagem</div>'">
+                    <div class="image-info">
+                        <div class="image-name">${img.name}</div>
+                        <div class="image-details">
+                            <strong>Dimensões:</strong> ${img.width}x${img.height}px<br>
+                            <strong>Tamanho:</strong> ${img.size_kb}KB<br>
+                            <strong>Categoria:</strong> ${img.category}<br>
+                            <strong>Qualidade:</strong> ${img.quality}
+                        </div>
+                    </div>
+                `;
+                
+                grid.appendChild(card);
+            });
+        }
+        
+        function openModal(src) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modalImg.src = src;
+            modal.classList.add('active');
+        }
+        
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.remove('active');
+        }
+        
+        // Fechar modal ao clicar fora da imagem
+        document.getElementById('imageModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+        
+        // Fechar modal com ESC
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+        
+        // Carregar catálogo ao iniciar
+        loadCatalog();
+    </script>
+</body>
+</html>
